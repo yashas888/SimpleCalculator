@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container m-auto max-w-lg absolute top-1/2 left-1/2 -translate-y-2/4 -translate-x-1/2">
+        <div class="mb-1">
+            <input  placeholder="Enter expression" class="w-full border-solid p-3 bg-gray-300" type="text">
+        </div>
+        <div class="buttons flex flex-col gap-y-1">
+            <div class="first flex justify-around border-solid gap-1 ">
+                <button class="btn p-5 font-black bg-red-400 w-full">(</button>
+                <button class="btn p-5  font-black bg-red-400 w-full">)</button>
+                <button class="btn p-5  font-black bg-red-400 w-full">%</button>
+                <button class="btn p-5  font-black bg-red-400 w-full">AC</button>
+            </div>
+            <div class="second flex justify-around border-solid gap-1 ">
+                <button class="btn p-5 font-black bg-red-400 w-full">7</button>
+                <button class="btn p-5 font-black bg-red-400 w-full">8</button>
+                <button class="btn p-5 font-black bg-red-400 w-full">9</button>
+                <button class="btn p-5 font-black bg-red-400 w-full">/</button>
+            </div>
+            <div class="third flex justify-around border-solid gap-1 ">
+                <button class="btn p-5 font-black bg-red-400 w-full">4</button>
+                <button class="btn p-5 font-black bg-red-400 w-full">5</button>
+                <button class="btn p-5 font-black bg-red-400 w-full">6</button>
+                <button class="btn p-5 font-black bg-red-400 w-full">*</button>
+            </div>
+            <div class="forth flex justify-around border-solid gap-1 ">
+                <button class="btn p-5 font-black bg-red-400 w-full">1</button>
+                <button class="btn p-5 font-black bg-red-400 w-full">2</button>
+                <button class="btn p-5 font-black bg-red-400 w-full">3</button>
+                <button class="btn p-5 font-black bg-red-400 w-full">-</button>
+            </div>
+            <div class="fifth flex justify-around border-solid gap-1 ">
+                <button class="btn p-5 font-black bg-red-400 w-full">0</button>
+                <button class="btn p-5 font-black bg-red-400 w-full">.</button>
+                <button class="btn p-5 font-black bg-red-400 w-full">=</button>
+                <button class="btn p-5 font-black bg-red-400 w-full">+</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
